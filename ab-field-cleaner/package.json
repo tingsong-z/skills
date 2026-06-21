@@ -1,0 +1,23 @@
+{
+  "name": "ab-field-cleaner-skill",
+  "version": "1.0.0",
+  "description": "AB字段清理工具 - 辅助脚本",
+  "main": "scripts/clean-ab.js",
+  "scripts": {
+    "clean": "node scripts/clean-ab.js",
+    "scan": "node scripts/scan-ab.js",
+    "report": "node scripts/generate-report.js"
+  },
+  "keywords": ["ab-test", "feature-flag", "code-cleanup"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/parser": "^7.23.0",
+    "@babel/traverse": "^7.23.0",
+    "@babel/generator": "^7.23.0",
+    "@babel/types": "^7.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
